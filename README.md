@@ -41,7 +41,7 @@ If this happens, please submit an issue and I will attempt to address it.
 ### 3. To Do
 
 * Updating README.md to reflect everything currently supported.
-* Implement Help → How To Use (which will essentially be a slimmed-down version of the README, just Sections 5 through _____.
+* Implement Help → How To Use (which will essentially be a slimmed-down version of the README, just Sections 5 and 6.
 * Implement more granular error checks for unpredictable scenarios and exception handling.
 * Implement checking to make sure an entry doesn't contain anything other than values created by System App Replacer
 * Implement just the executable file, without the path to it.
