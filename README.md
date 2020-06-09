@@ -40,16 +40,23 @@ If this happens, please submit an issue and I will attempt to address it.
 
 ### 3. To Do
 
-* Updating README.md to reflect everything currently supported.
-* Implement Help → How To Use (which will essentially be a slimmed-down version of the README, just Sections 5 and 6.
-* Implement more granular error checks for unpredictable scenarios and exception handling.
-* Implement checking to make sure an entry doesn't contain anything other than values created by System App Replacer
-* Implement just the executable file, without the path to it.
+Beta Ready Milestone will have the following:
+
 * Code commenting. I got in the zone and just stopped commenting.
 * Implementing File → Export operations
 * Implementing File → Import operations
+
+Version 1.0 Milestone will have the following:
+
+* Implement more granular error checks for unpredictable scenarios and exception handling.
+* Implement checking to make sure an entry doesn't contain anything other than values created by System App Replacer
+* Implement just the executable file, without the path to it.
 * A "Details" page for the software replacing another app that shows command line arguments used.
+
+Version 2.0 Milestone will have the following:
+
 * Include database of known file arguments for popular software. The idea is to have these auto-populate when a known executable is selected to replace an app. For instance, if you want to replace notepad.exe with notepad++.exe, once you select the notepad++.exe executable, the line for arguments is automatically filled with "-notepadStyleCmdline -z", as this is what is needed for notepad++ to open files from folders rather than from File → Open
+* Optional Cloud Sync to sync configuration between multiple devices.
 
 ### 4. Installing and Running the software
 

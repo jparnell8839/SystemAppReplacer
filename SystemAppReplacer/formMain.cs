@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SystemAppReplacer
-{
+{ 
     public partial class formMain : Form
     {
         public formMain()
@@ -26,35 +26,6 @@ namespace SystemAppReplacer
         {
             GetReplacedSystemAppList();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private void GetReplacedSystemAppList()
         /***********************************
@@ -320,6 +291,12 @@ namespace SystemAppReplacer
             txtReplaceItWith.Text = string.Empty;
             txtArgs.Text = string.Empty;
             GetReplacedSystemAppList();
+        }
+
+        private void howToUseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var HowTo = new formHowTo();
+            HowTo.ShowDialog();
         }
     }
 }
